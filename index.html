@@ -11,6 +11,15 @@
 	      <!-- Material Design Bootstrap -->
 	      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
 	      <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Comfortaa">
+          <link href="https://fonts.googleapis.com/css?family=Actor|Julius+Sans+One" rel="stylesheet">
+
+          <style type="text/css">
+              .fonts {
+                font-family: 'Actor', sans-serif;
+                font-family: 'Julius Sans One', sans-serif;
+              }
+
+          </style>
 				  
 		
 </head>
@@ -19,135 +28,154 @@
 
 		<!-- navBar -->
 
-		<nav class="navbar navbar-expand-lg navbar-dark unique-color fixed-top scrolling-navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="background-color: #18da68;">
             <div class="container">
-                <a class="navbar-brand" href="#" style="color: black;">TM</a>
+                <a class="navbar-brand fonts" href="#" style="color: black;">TM</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto smooth-scroll">
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#home" style="color: black;">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link waves-effect waves-light fonts" href="#home" style="color: black;">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#about" data-offset="90" style="color: black;">About Me</a>
+                            <a class="nav-link waves-effect waves-light fonts" href="#about" data-offset="90" style="color: black;">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#portfolio" data-offset="30" style="color: black;">Portfolio</a>
+                            <a class="nav-link waves-effect waves-light fonts" href="#portfolio" data-offset="30" style="color: black;">Portfolio</a>
                         </li>
                         
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-light" href="#contact" data-offset="100" style="color: black;">Contact</a>
+                            <a class="nav-link waves-effect waves-light fonts" href="#contact" data-offset="100" style="color: black;">Contact</a>
                         </li>
                     </ul>
                 </div>
+                <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light"><i class="fa fa-github fa-2x" style="color: black;" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link waves-effect waves-light"><i class="fa fa-linkedin-square fa-2x" style="color: black;" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
             </div>
         </nav>
 
 <!-- First header section -->
-		<header class="masthead" style="background-color: grey; padding-top: 300px; padding-bottom: 300px;">
+		<header class="masthead" style="background-color: grey; padding-top: 300px; background-image: url(assets/images/guy.jpeg); background-size: 100% 100%;">
 		      <div class="intro-body" id="home">
-		        <div class="container h-100 d-flex justify-content-start align-items-center"">
+		        <div class="container h-100 d-flex justify-content-end align-items-center"">
 		          <div class="row smooth-scroll">
 		            <div class="col-lg-12 mx-auto">
 		              <div class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
-		                                <h2 class="display-3 font-weight-bold mb-3">Tanner McClain</h2>
-		                                <h4 class="text-uppercase font-weight-bold pb-5">Full Stack Web Developer</h4>
-		                                <h2 class=" mt-3">Specializing in Front-End Design.</h2>
+		                                <h2 class="display-3 mb-3 fonts text-right" style="color: #18da68; margin-top: 30px;">Tanner McClain</h2>
+		                                <h4 class="lead fonts text-right" style="color: #18da68; margin-top: 50px;">Full Stack Web Developer</h4>
+		                                <h2 class="lead font-italic fonts text-right" style="color: #18da68; margin-top: 0px;">Specializing in Front-End Design</h2>
 		               </div>            
 		            </div>
 		          </div>
 		        </div>
+                <div class="container h-100 d-flex justify-content-start align-items-center" style="padding-top: 300px; padding-bottom: 35px;">
+                    <div class="row smooth-scroll">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;">
+                                <p class="lead mt-5 pt-4 text-center font-italic" style="color: #18da68;font-size: 22px;">“Design transcends agenda. It speaks to the politics of optimism.” –Paul Bennett</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 		      </div>
 		</header>
+        
          
-            <div class="container">
-
+         <div class="container-fluid" style="background-color: #3e3e3e;">
             <!-- Second section -->
-            <section id="services" class="section feature-box pt-3 pb-4">
+            <section id="services" class="section feature-box pt-3 pb-4" style="background-color: #3e3e3e;">
                 
                 <!--Secion heading-->
-                <h1 class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-4 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">What i do</h1>
-                
-                <!--Section description-->
-                <p class="text-center text-uppercase font-weight-bold wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">All about my work</p>
+                <h1 class="text-center text-uppercase mt-5 mb-3 mt-4 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color: #959595;">What i do</h1>
+
                 <div class="line wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;"></div>
 
+                
                 <!--First row-->
-                <div class="row my-5 pt-4 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
+                <div class="row wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; margin: 50px 50px 50px 50px;">
                     
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
+                    <div class="col-md-3 text-center d-flex justify-content-start">
                         <div class="icon-area">
                             <div class="display-4">
-                            	<span class="badge badge-pill unique-color" style="border: 5px solid grey;">
-                                <i class="fa fa-pencil fa-2x" style="margin: 20px 20px 20px 20px;"></i></span>
+                                <span class="badge badge" style="background-color: #18da68">
+                                    <img class="img-fluid" src="assets/images/work-station.jpeg" style="border: 10px solid black;">
+                                </span>
                             </div>
                             <br>
-                            <strong>PROJECT</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
+                            <strong style="color: #959595;">Project</strong>
+                            <p style="color: #959595;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
                         </div>
                     </div>
-                   
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
+                        <!-- Card -->
+                    <div class="col-md-3 text-center d-flex justify-content-between" style="float: left;">
                         <div class="icon-area">
                             <div class="display-4">
-                            	<span class="badge badge-pill unique-color" style="border: 5px solid grey;">
-                                <i class="fa fa-home fa-2x" style="margin: 20px 20px 20px 20px;"></i></span>
+                                <span class="badge badge" style="background-color: #18da68">
+                                    <img class="img-fluid" src="assets/images/coding.jpeg" style="border: 10px solid black;">
+                                </span>
                             </div>
                             <br>
-                            <strong>CONSTRUCTION</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
-                        </div>
-                    </div>   
-                        
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
-                        <div class="icon-area">
-                            <div class="display-4">
-                            	<span class="badge badge-pill unique-color" style="border: 5px solid grey;">
-                                <i class="fa fa-paint-brush fa-2x" style="margin: 20px 20px 20px 20px;"></i></span>
-                            </div>
-                            <br>
-                            <strong>DESIGN</strong>
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
+                            <strong style="color: #959595;">Construction</strong>
+                            <p style="color: #959595;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
                         </div>
                     </div>
-                    
-                    <div class="col-lg-3 col-md-6 text-center pt-4">
+                    <div class="col-md-3 text-center d-flex justify-content-between">
                         <div class="icon-area">
                             <div class="display-4">
-                            	<span class="badge badge-pill unique-color" style="border: 5px solid grey;">
-                                <i class="fa fa-laptop fa-2x" style="margin: 20px 20px 20px 20px;"></i></span>
+                                <span class="badge badge" style="background-color: #18da68">
+                                    <img class="img-fluid" src="assets/images/coding.jpeg" style="border: 10px solid black;">
+                                </span>
                             </div>
                             <br>
-                            <strong>VISUALIZATON</strong>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
+                            <strong style="color: #959595;">Design</strong>
+                            <p style="color: #959595;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
                         </div>
+                    </div>
+                    <div class="col-md-3 text-center d-flex justify-content-between">
+                        <div class="icon-area">
+                            <div class="display-4">
+                                <span class="badge badge" style="background-color: #18da68">
+                                    <img class="img-fluid" src="assets/images/work-station.jpeg" style="border: 10px solid black;">
+                                </span>
+                            </div>
+                            <br>
+                            <strong style="color: #959595;">Vizualizaition</strong>
+                            <p style="color: #959595;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident.</p>
+                        </div>
+                    </div>
                     </div>
 
+                    </section>
+            <!-- /.Second section -->
                 </div>
                 <!--/First row-->
-
-            </section>
-            <!-- /.Second section -->
-
         </div>
 
-        <div class="container-fluid" style="background-color: #e8eaec;">
+        <!-- quote area -->
+
+        <div class="container-fluid" style="background-color: #181818; border-bottom: 10px solid #18da68; border-top: 10px solid #18da68;">
 
             <div class="container-fluid">
 
                 <!--Section: Main portfolio-->
                 <section id="portfolio" class="section pt-3 pb-3">
 
-                    <h1 class="text-center text-uppercase font-weight-bold mt-5 mb-3 mt-5 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">My projects</h1>
+                    <h1 class="display-4 text-center text-uppercase mt-5 mb-3 mt-5 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color: #18da68;">My projects</h1>
             
                     <!--Section description-->
-                    <p class="text-center text-uppercase font-weight-bold wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">All about my work</p>
+                    <p class=" display-5 text-center text-uppercase wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s; color: #18da68;">All about my work</p>
                     <div class="line line-v2 wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;"></div>
                        
                     <!--Section description-->
-                    <p class="section-description mt-5 pt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium repellat eveniet quia vitae.</p>
+                    <p class="section-description mt-5 pt-4 text-center" style="color: #18da68;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam. At ab ea a molestiae corrupti numquam quo beatae minima ratione magni accusantium repellat eveniet quia vitae.</p>
 
                     <!--First row-->
                     <div class="row ml-3 mr-3 pb-4 pt-1 wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
@@ -155,98 +183,57 @@
                                 <figure class="col-md-3">
                                     <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(135).jpg" data-size="1600x1067"> 
                                         <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(135).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
+                                    <p class="text-uppercase font-weight-bold mt-4" style="color: #18da68">| Lorem ipsum dolor sit amet</p>
                                 </figure>
 
                                <figure class="col-md-3">
                                     <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(128).jpg" data-size="1600x1067"> 
                                         <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(128).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
+                                    <p class="text-uppercase font-weight-bold mt-4" style="color: #18da68">| Lorem ipsum dolor sit amet</p>
                                 </figure>
                                 
                                 <figure class="col-md-3">
                                     <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(133).jpg" data-size="1600x1067"> 
                                         <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(133).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
+                                    <p class="text-uppercase font-weight-bold mt-4" style="color: #18da68">| Lorem ipsum dolor sit amet</p>
                                 </figure>
                                
                                 <figure class="col-md-3">
                                     <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(131).jpg" data-size="1600x1067"> 
                                         <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(131).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
+                                    <p class="text-uppercase font-weight-bold mt-4" style="color: #18da68">| Lorem ipsum dolor sit amet</p>
                                 </figure>
-
-					<div class="row ml-3 mr-3 pb-4 pt-1 wow fadeIn animated" data-wow-delay="0.4s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.4s;">
-
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(130).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(130).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(132).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(132).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(134).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(134).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                                
-                                <figure class="col-md-3">
-                                    <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(1).jpg" data-size="1600x1067"> 
-                                        <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(1).jpg" class="img-fluid z-depth-1"> </a>
-                                    <p class="text-uppercase font-weight-bold blue-grey-text mt-4">| Lorem ipsum dolor sit amet</p>
-                                </figure>
-                               
-                            </div>
 
                         </div>
                         
                         <div class="row pt-5 mb-4 center-text">
                         	<div class="col-md-4"></div>
                         	<div class="col-md-4">
-                                <a class="btn btn-outline-black btn-lg btn-block waves-effect"><strong>More</strong></a>
+                                <a class="btn btn-lg btn-block waves-effect" style="background-color: #18da68;"><strong style="color: black;">More</strong></a>
                              </div>
                              <div class="col-md-4"></div>
-
                         </div>
                     </section>
                 </div>
 
             </div>
-
-  		<!-- quote area -->
-        <div class="streak streak-photo streak-md" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/City/12-col/img%20%2822%29.jpg')">
-            <div class="mask flex-center rgba-stylish-strong">
-                <div class="white-text smooth-scroll wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">
-                   <h3 class="text-center h3-responsive mb-5"><i class="fa fa-quote-left" aria-hidden="true"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        <i class="fa fa-quote-right" aria-hidden="true"></i></h3>
-                   <h5 class="text-center font-italic wow fadeIn animated" data-wow-delay="0.2s" style="visibility: visible; animation-name: fadeIn; animation-delay: 0.2s;">~ Erich Fromm</h5>
-                </div>
-            </div>
-        </div>
-        <div class="container">
              
             <!-- Contact form-->
-            <section id="contact" class="section mb-4">
+            <section id="contact" class="section" style="background-color: #3e3e3e; padding: 100px;">
  
                 <!--Section heading-->
-                <h1 class="text-center text-uppercase font-weight-bold mt-5 pt-4 mb-3" style="color: black;">Contact me</h1>
+                <h1 class="text-center text-uppercase" style="color: #18da68;">Contact me</h1>
                 <!--Section description-->
-                <p class="text-center text-uppercase font-weight-bold" style="color: black;">to get more information</p>
+                <p class="text-center text-uppercase font-weight-bold" style="color: #959595;">to get more information</p>
                 <div class="line"></div>
                 
                 <!--Section sescription-->
-                <p class="section-description my-5 pt-4 pb-3" style=" color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
+                <p class="section-description" style=" color: black;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum quisquam eum porro a pariatur accusamus veniam.</p>
 
                 <div class="row">
 
                     <!--First column-->
-                    <div class="col-md-8 mb-5">
+                    <div class="col-md-8">
                         <form>
                             <!--First row-->
                             <div class="row">
@@ -255,7 +242,7 @@
                                     <div class="md-form">
                                         <div class="md-form">
                                             <input type="text" id="form41" class="form-control">
-                                            <label for="form41" class="">Your name</label>
+                                            <label for="form41" class="" style=" color: black;">Your name</label>
                                         </div>
                                     </div>
                                 </div>
@@ -265,7 +252,7 @@
                                     <div class="md-form">
                                         <div class="md-form">
                                             <input type="text" id="form52" class="form-control">
-                                            <label for="form52" class="">Your email</label>
+                                            <label for="form52" class="" style=" color: black;">Your email</label>
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +264,7 @@
                                 <div class="col-md-12">
                                     <div class="md-form">
                                         <input type="text" id="form51" class="form-control">
-                                        <label for="form51" class="">Subject</label>
+                                        <label for="form51" class="" style=" color: black;">Subject</label>
                                     </div>
                                 </div>
                             </div>
@@ -289,32 +276,32 @@
                                 <div class="col-md-12">
                                     <div class="md-form">
                                         <textarea type="text" id="form76" class="md-textarea form-control" rows="3"></textarea>
-                                        <label for="form76">Your message</label>
+                                        <label for="form76" style=" color: black;">Your message</label>
                                     </div>
                                 </div>
                             </div>
                             <!--/.Third row-->
                         </form>
 
-                        <div class="text-center text-md-left mt-4">
-                            <a class="btn btn-outline-black waves-effect waves-light"><strong>Send</strong></a>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-lg waves-effect" style="background-color: #18da68; margin-top: 20px;"><strong style="color: black;">Send</strong></a>
                         </div>
                     </div>
                     <!--.First column-->
 
                     <!--Second column-->
                     <div class="col-md-4">
-                        <ul class="contact-icons">
+                        <ul class="contact-icons" style=" color: #18da68;">
                             <li><i class="fa fa-map-marker fa-2x"></i>
-                                <p>New York, NY 10012, USA</p>
+                                <p style="color: black;">New York, NY 10012, USA</p>
                             </li>
 
                             <li><i class="fa fa-phone fa-2x"></i>
-                                <p>+ 01 234 567 89</p>
+                                <p style="color: black;">+ 01 234 567 89</p>
                             </li>
 
                             <li><i class="fa fa-envelope fa-2x"></i>
-                                <p>BLERG</p>
+                                <p style="color: black;">BLERG</p>
                             </li>
                         </ul>
                     </div>
@@ -327,15 +314,36 @@
 
         </div>
 
-    <footer class="page-footer text-center text-md-left mt-5  elegant-color-dark">
+    <footer class="page-footer text-center" style="background-color: #18da68;">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 wow fadeIn" style="">
+
+                    <div class="footer-socials flex-center">
+
+                     
+                        <a class="nav-link waves-effect waves-light"><i class="fa fa-github fa-2x" style="color: black;" aria-hidden="true"></i></a>
+                        
+                    
+                        <a class="nav-link waves-effect waves-light"><i class="fa fa-linkedin-square fa-2x" style="color: black;" aria-hidden="true"></i></a>
+                    
+
+                    </div>
+                </div>
+            </div>
+
 
         <!--Copyright-->
-        <div class="footer-copyright py-3 text-center" data-wow-delay="0.3s " style="color: white;">
-            <div class="container-fluid">
-                © 2018 Copyright: Tanner McClain </a>
+        <div class="py-1 text-center" data-wow-delay="0.3s" style="color: black;">
+            <div class="container-fluid"><p>© 2018 Copyright: Tanner McClain </p>
             </div>
         </div>
         <!--/Copyright-->
+
+        </div>
 
     </footer>
 
