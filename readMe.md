@@ -2,6 +2,6 @@
 
 ## Description
 
-Personal porfolio with the mdb bootstrap framework.  
+Personal porfolio created with the mdb bootstrap framework.  
 
 link: https://tann3rjm129.github.io/mdb-bootstrap_Portfolio/
